@@ -2,9 +2,7 @@ import random
 
 print("Bem-vindo à Loja de Instrumentos Musicais")
 
-# Base de dados de produtos
 produtos = [
-    # Guitarras
     {"id": 1, "nome": "Fender Stratocaster American Professional", "categoria": "Guitarra", "marca": "Fender", "preco": 8999.99, "estoque": 5},
     {"id": 2, "nome": "Gibson Les Paul Standard 50s", "categoria": "Guitarra", "marca": "Gibson", "preco": 12999.99, "estoque": 3},
     {"id": 3, "nome": "Ibanez RG550 Genesis", "categoria": "Guitarra", "marca": "Ibanez", "preco": 4599.99, "estoque": 8},
@@ -14,7 +12,6 @@ produtos = [
     {"id": 7, "nome": "Epiphone Les Paul Standard", "categoria": "Guitarra", "marca": "Epiphone", "preco": 2599.99, "estoque": 12},
     {"id": 8, "nome": "Jackson Soloist", "categoria": "Guitarra", "marca": "Jackson", "preco": 6899.99, "estoque": 4},
     
-    # Baixos
     {"id": 9, "nome": "Fender Precision Bass American", "categoria": "Baixo", "marca": "Fender", "preco": 7999.99, "estoque": 6},
     {"id": 10, "nome": "Music Man StingRay Special", "categoria": "Baixo", "marca": "Music Man", "preco": 10999.99, "estoque": 2},
     {"id": 11, "nome": "Ibanez SR500", "categoria": "Baixo", "marca": "Ibanez", "preco": 3899.99, "estoque": 10},
@@ -267,4 +264,5 @@ def menu_loja():
             print("Opção inválida! Tente novamente.")
 
 if __name__ == "__main__":
+
     menu_loja()
